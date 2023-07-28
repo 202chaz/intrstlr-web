@@ -2,7 +2,14 @@
 
 import Image from 'next/image'
 import { useEffect } from 'react';
-import Head from 'next/head'
+import { Roboto } from 'next/font/google'
+
+const roboto = Roboto({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export default function Home() {
   let textArray = [
@@ -60,9 +67,10 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>INTRSTLR | Coming Soon</title>
-      </Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@700;900&display=swap" rel="stylesheet" />
+      <audio src="./crackling.mp3" loop autoPlay controlsList="nodownload" />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <h2 className="main-heading">INTRSTLR</h2>
         <div className="typewriter">

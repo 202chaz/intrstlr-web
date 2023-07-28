@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.cdnfonts.com/css/t-star-pro');
 
 @keyframes glitch {
 
@@ -113,7 +112,6 @@ div:after {
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: 'T-Star Pro', sans-serif;
   background: #0470ae;
   font-smooth: auto;
 }
@@ -129,8 +127,10 @@ body {
 }
 
 .main-heading {
-  font-size: 80px;
+  font-family: 'Handjet', cursive;
+  font-size: 90px;
   animation: glitch 1.5s linear infinite;
+  font-weight: 700;
 }
 
 .typewriter h1 {
