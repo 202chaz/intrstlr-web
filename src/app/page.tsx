@@ -70,7 +70,7 @@ export default function Home() {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@700;900&display=swap" rel="stylesheet" />
-      <audio src="./crackling.mp3" loop autoPlay controlsList="nodownload" />
+      <audio src="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/crackling.mp3" loop autoPlay controlsList="nodownload" />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <h2 className="main-heading">INTRSTLR</h2>
         <div className="typewriter">
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="main-container">
           <Image 
             alt="Picture of candle"
-            src="/cndl.png" 
+            src="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/cndl.png" 
             width={500}
             height={500}
           />
