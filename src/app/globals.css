@@ -159,7 +159,7 @@ body {
 
 .typewriter p {
   @media (min-width: 767px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   @media (max-width: 767px) {
@@ -190,9 +190,18 @@ body {
   animation: none;
 }
 
+.heading-container {
+  z-index: 2;
+  position: fixed;
+  top: 15%;
+  left: 40%;
+}
+
 .video-container {
   height: 100%;
-  width: 100%
+  width: 100%;
+  margin-top: -10%;
+  z-index: 1;
 }
 
 .background-video {

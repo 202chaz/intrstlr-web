@@ -13,14 +13,14 @@ const roboto = Roboto({
 
 export default function Home() {
   let textArray = [
-    "Reduce Your Stress.",
-    "Help to Link With Positive \n Past Memories.",
-    "Help You Set a Ritual.",
-    "Transform the Ambiance of a Space.",
-    "Improve Your Mood.",
-    "Help With Your Sleep.",
-    "Promote Feelings Of \n Tranquillity and Calm.",
-    "Relax The Mind and Body."
+    "reduce your stress.",
+    "help to link with positive \n past memories.",
+    "help you set a ritual.",
+    "transform the ambiance of a space.",
+    "improve your mood.",
+    "help with your sleep.",
+    "promote feelings of \n tranquillity and calm.",
+    "relax the mind and body."
   ];
 
   const typingDelay = 200;
@@ -119,11 +119,11 @@ export default function Home() {
   return (
     <>
       <div className="video-container">
-        <video id="background-video" className='background-video' autoPlay loop muted poster="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/three_candles.png">
+        <video id="background-video" className='background-video' autoPlay loop muted playsInline poster="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/red_bag_candle.png">
           <source src="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/intrstlr_add.mp4" type="video/mp4" />
         </video>
         <div className="container">
-          <h1 id="headline">LAUNCHING</h1>
+          <h1 id="headline">Aromatherapy Candles</h1>
           <div id="countdown">
             <ul>
               <li><span id="days"></span>days</li>
@@ -140,7 +140,7 @@ export default function Home() {
         </div>
         <div>
           <div className="typewriter">
-            <p>I Can <span className="typed-text"></span><span className="cursor">&nbsp;</span></p>
+            <p>I can <span className="typed-text"></span><span className="cursor">&nbsp;</span></p>
           </div>
         </div>
       </div>

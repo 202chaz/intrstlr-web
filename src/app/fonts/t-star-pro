@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProMediumItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: italic;
+    font-weight: 300;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProRegularItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 250;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: italic;
+    font-weight: 250;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProLightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: italic;
+    font-weight: 700;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: normal;
+    font-weight: 900;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProHeavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'T-Star Pro';
+    font-style: italic;
+    font-weight: 900;
+    src: local('T-Star Pro'), url('https://fonts.cdnfonts.com/s/87790/TStarProHeavyItalic.woff') format('woff');
+}
