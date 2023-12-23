@@ -215,7 +215,7 @@ body {
     margin-top: -10%;
   }
   @media (max-width: 767px) {
-    margin-top: -5%;
+    margin-top: 3%;
   }
   text-align: center;
 }

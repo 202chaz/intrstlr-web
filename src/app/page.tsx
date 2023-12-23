@@ -119,7 +119,7 @@ export default function Home() {
   return (
     <>
       <div className="video-container">
-        <video id="background-video" className='background-video' autoPlay loop muted playsInline poster="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/red_bag_candle.png">
+        <video id="background-video" className='background-video' autoPlay loop muted playsInline poster="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/video_poster.png">
           <source src="https://intrstlr.nyc3.cdn.digitaloceanspaces.com/intrstlr_add.mp4" type="video/mp4" />
         </video>
         <div className="container">
