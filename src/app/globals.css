@@ -112,7 +112,7 @@ div:after {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #0470ae;
+  background: #000;
   font-smooth: auto;
 }
 
@@ -142,7 +142,7 @@ body {
 .typewriter h1 {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange;
+  border-right: .15em solid #a406ff;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
@@ -173,7 +173,7 @@ body {
 
 .typewriter p span.typed-text {
   font-weight: normal;
-  color: #dd7732;
+  color: #a406ff;
 }
 
 .typewriter p span.cursor {
@@ -186,6 +186,65 @@ body {
 
 .typewriter p span.cursor.typing {
   animation: none;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%
+}
+
+.background-video {
+  max-height: 70%;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  margin-top: -10%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
 }
 
 @keyframes blink {
