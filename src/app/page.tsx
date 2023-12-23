@@ -86,16 +86,22 @@ export default function Home() {
 
         const now = new Date().getTime(),
           distance = countDown - now;
-
+        // @ts-ignore
         document.getElementById("days").innerText = Math.floor(distance / (day)),
+          // @ts-ignore
           document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          // @ts-ignore
           document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          // @ts-ignore
           document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "It's my birthday!";
+          // @ts-ignore
+          document.getElementById("headline").innerText = "It's Launch Day!";
+          // @ts-ignore
           document.getElementById("countdown").style.display = "none";
+          // @ts-ignore
           document.getElementById("content").style.display = "block";
           clearInterval(x);
         }
